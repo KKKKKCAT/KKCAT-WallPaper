@@ -2,6 +2,8 @@
 
 Create and deploy a high-quality wallpaper website with ease! Whether you prefer a simple static version or a more advanced dynamic version with backend support, KKCAT WallPaper has you covered.
 
+![](https://raw.githubusercontent.com/KKKKKCAT/KKCAT-WallPaper/main/img/kkcat-wallpaper-01.webp)
+
 ## README
 
 - [English](README.md) - [繁體中文](README_zh-TW.md) - [简体中文](README_zh-CN.md)
@@ -42,6 +44,8 @@ Explore the potential of your own wallpaper website:
 For the source code, visit the [Static Version Repository](https://github.com/KKKKKCAT/KKCAT-WallPaper/blob/main/wallpaper-free-worker.js).
 
 ### Dynamic Version with Backend
+
+![](https://raw.githubusercontent.com/KKKKKCAT/KKCAT-WallPaper/main/img/kkcat-wallpaper-02.webp)
 
 1. **Setup Environment**: Configure your environment with database credentials and authentication tokens.
 2. **Deploy Backend**: Deploy the backend using your preferred service, such as Vercel or AWS Lambda.
