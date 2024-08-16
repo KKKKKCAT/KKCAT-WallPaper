@@ -51,7 +51,7 @@ For the source code, visit the [Static Version Repository](https://github.com/KK
 2. **Deploy Backend**: Deploy the backend using your preferred service, such as Vercel or AWS Lambda.
 3. **Manage Content**: Use the admin interface to manage wallpapers dynamically.
 
-> **Note**: The dynamic version's source code is not publicly available to ensure security and privacy.
+> **Note**: To ensure security and privacy, the source code for the dynamic version is not publicly available. If you are interested in purchasing it, please contact the author.
 
 ## 📄 API Documentation
 
