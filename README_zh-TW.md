@@ -1,19 +1,17 @@
-以下是文章的繁體中文版：
-
----
-
 # 📱 KKCAT WallPaper：部署你的終極壁紙網站
 
-輕鬆創建並部署一個高品質的壁紙網站！無論你偏好簡單的靜態版本，還是需要後端支持的動態版本，KKCAT WallPaper 都能滿足你的需求。
+輕鬆創建並部署高品質的壁紙網站！無論你偏好簡單的靜態版本，還是需要後端支持的高級動態版本，KKCAT WallPaper 都能滿足你的需求。
+
+![](https://raw.githubusercontent.com/KKKKKCAT/KKCAT-WallPaper/main/img/kkcat-wallpaper-01.webp)
 
 ## 使用說明
 
-- [English](README.md) - [繁體中文](README_zh-TW.md) - [简体中文](README_zh-CN.md)
+- [English](README.md) - [繁體中文](README_zh-TW.md) - [简体中文](README_zh-CN.md) - [日本語](README_ja.md) - [한국어](README_ko.md)
 
 ## 🌟 功能特色
 
 ### 靜態版本
-- **快速且簡單的部署**：只需不到 10 分鐘即可通過 Cloudflare Workers 部署靜態版本，無需複雜的設置或本地工具。
+- **快速且簡單的部署**：只需不到 10 分鐘，即可使用 Cloudflare Workers 部署靜態版本，無需複雜的設置或本地工具。
 - **完全靜態**：整個網站以靜態 HTML 提供，確保快速加載和簡單維護。
 - **可自定義**：直接修改 HTML 和 CSS 來滿足你的需求，無需後端配置。
 
@@ -24,9 +22,9 @@
 
 ## 🚀 線上展示
 
-探索你自己壁紙網站的潛力：
-- **靜態版本**： [查看展示](https://example.com)
-- **動態版本**：僅限授權用戶訪問。
+探索你自己的壁紙網站的潛力：
+- **靜態版本**： [查看展示](https://free-wallpaper.kkcat.blog)
+- **動態版本**： [查看展示](https://wallpaper.kkcat.blog)
 
 ## ⭐ 為何選擇 KKCAT WallPaper？
 
@@ -43,11 +41,13 @@
 2. **創建一個新 Worker**：導航至 Workers & Pages 部分。
 3. **部署**：將靜態 HTML 代碼複製到 Worker 編輯器中，保存並部署。
 
-欲查看源碼，請訪問 [靜態版本倉庫](https://github.com/your-repo)。
+欲查看源碼，請訪問 [靜態版本倉庫](https://github.com/KKKKKCAT/KKCAT-WallPaper/blob/main/wallpaper-free-worker.js)。
 
 ### 帶後端的動態版本
 
-1. **配置環境變量**：在你的環境中配置數據庫憑證和認證令牌。
+![](https://raw.githubusercontent.com/KKKKKCAT/KKCAT-WallPaper/main/img/kkcat-wallpaper-02.webp)
+
+1. **配置環境**：在你的環境中配置數據庫憑證和認證令牌。
 2. **部署後端**：使用你喜歡的服務（如 Vercel 或 AWS Lambda）來部署後端代碼。
 3. **管理內容**：通過管理界面動態管理壁紙。
 
@@ -89,3 +89,5 @@
 ---
 
 使用 KKCAT WallPaper，讓你的網站如虎添翼，簡單與強大並存，唯一的限制就是你的創意。🚀
+
+---
