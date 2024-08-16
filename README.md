@@ -21,8 +21,8 @@ Create and deploy a high-quality wallpaper website with ease! Whether you prefer
 ## 🚀 Live Demo
 
 Explore the potential of your own wallpaper website:
-- **Static Version**: [View Demo](https://example.com)
-- **Dynamic Version**: Restricted to authorized users only.
+- **Static Version**: [View Demo](https://free-wallpaper.kkcat.blog)
+- **Dynamic Version**: [View Demo](https://wallpaper.kkcat.blog)
 
 ## ⭐ Why Choose KKCAT WallPaper?
 
@@ -39,7 +39,7 @@ Explore the potential of your own wallpaper website:
 2. **Create a New Worker**: Navigate to the Workers & Pages section.
 3. **Deploy**: Copy the static HTML code into the Worker editor, save, and deploy.
 
-For the source code, visit the [Static Version Repository](https://github.com/your-repo).
+For the source code, visit the [Static Version Repository](https://github.com/KKKKKCAT/KKCAT-WallPaper/blob/main/wallpaper-free-worker.js).
 
 ### Dynamic Version with Backend
 
