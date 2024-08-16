@@ -1,42 +1,87 @@
-# KKCAT WallPaper 平台——利用 Cloudflare Workers 免費部署高質量壁紙平台
+# 📱 KKCAT WallPaper: Deploy Your Ultimate Wallpaper Website
 
-## 項目簡介
+Create and deploy a high-quality wallpaper website with ease! Whether you prefer a simple static version or a more advanced dynamic version with backend support, KKCAT WallPaper has you covered.
 
-KKCAT WallPaper 是一款高質量的壁紙管理與展示平台，專為 iOS、iPhone、iPad 和 macOS 設備設計。這個項目利用了 Cloudflare Workers 的強大功能，實現了一個輕量、快速、且完全免費的部署方案，讓您無需覆雜的服務器配置即可輕松上線您的壁紙平台。
+## README
 
-## 項目特點
+- [English](README.md) - [繁體中文](README_zh-TW.md) - [简体中文](README_zh-CN.md)
 
-### 免費部署，無需服務器
+## 🌟 Features
 
-- **基於 Cloudflare Workers**：KKCAT WallPaper 完全依賴 Cloudflare Workers，無需傳統的服務器配置和維護，極大地簡化了部署流程，同時還能享受 Cloudflare 提供的免費額度。
-- **全球 CDN 加速**：借助 Cloudflare 的全球內容分發網絡（CDN），您的壁紙平台能夠快速響應全球用戶的請求，提供無縫的訪問體驗。
-- **自動擴展與高可用性**：Cloudflare Workers 天生具備自動擴展能力，能夠在流量高峰期自動調整資源分配，確保平台的穩定性和高可用性。
+### Static Version
+- **Quick and Easy Deployment**: Deploy the static version in under 10 minutes with Cloudflare Workers, no need for complex setups or local tools.
+- **Fully Static**: The entire website is served as static HTML, ensuring fast load times and easy maintenance.
+- **Customizable**: Modify the HTML and CSS directly to fit your needs, no backend configuration required.
 
-### 高效的壁紙管理
+### Dynamic Version with Backend
+- **Database-Driven Content**: Manage your wallpapers dynamically with a backend database, allowing for easy updates and scalability.
+- **Admin Interface**: A built-in admin panel for uploading, editing, and deleting wallpapers, giving you full control over your content.
+- **Secure and Private**: The source code for the dynamic version is not publicly available, ensuring the security of your data and application.
 
-- **多設備支持**：平台為 iPhone、iPad 和 Mac 等設備提供不同分辨率的高清壁紙，並自動適配不同設備的屏幕尺寸。
-- **多語言支持**：支持包括英文、繁體中文、簡體中文等多種語言，讓全球用戶都能輕松使用您的壁紙平台。
-- **個性化推薦**：根據用戶的設備類型、使用習慣等數據，平台能夠智能推薦最適合的壁紙內容，提升用戶體驗。
+## 🚀 Live Demo
 
-### 簡潔優雅的用戶界面
+Explore the potential of your own wallpaper website:
+- **Static Version**: [View Demo](https://example.com)
+- **Dynamic Version**: Restricted to authorized users only.
 
-- **現代化設計**：平台采用簡潔、直觀的設計風格，用戶界面符合 Apple 設計美學，提供極佳的視覺體驗。
-- **響應式布局**：支持不同設備的屏幕尺寸和分辨率，無論用戶使用何種設備，都能獲得一致且優質的瀏覽體驗。
+## ⭐ Why Choose KKCAT WallPaper?
 
-### Cloudflare Workers 的優勢
+- **Open-Source for Static Version**: Fully open-source, the static version is ideal for those who want to get started quickly without the need for a backend.
+- **Scalable Dynamic Version**: The dynamic version is perfect for those who need a more robust solution with backend capabilities.
+- **Modern Design**: Responsive and visually appealing layouts, perfect for displaying high-quality wallpapers.
+- **Interactive Gallery**: Features a dynamic gallery with hover effects and pagination, offering an engaging user experience.
 
-- **零成本起步**：使用 Cloudflare Workers 部署 KKCAT WallPaper 是完全免費的，您無需為服務器、帶寬或維護費用支付任何費用。
-- **快速叠代**：由於 Workers 的部署和修改都非常方便，您可以快速上線新功能，隨時調整和優化您的平台。
-- **全球訪問**：Cloudflare 的全球網絡確保了您的平台在世界各地都能快速響應，提供一致的高質量訪問體驗。
+## ⚡ Quick Start
 
-### 購買信息
+### Static Version
 
-此項目為商業代碼，如果您有興趣購買或需要更多信息，請聯系：
+1. **Log in to Cloudflare**: Access your Cloudflare account.
+2. **Create a New Worker**: Navigate to the Workers & Pages section.
+3. **Deploy**: Copy the static HTML code into the Worker editor, save, and deploy.
 
-- **Telegram**: [@KKKKKKCAT](https://t.me/KKKKKCAT)
+For the source code, visit the [Static Version Repository](https://github.com/your-repo).
 
-## 總結
+### Dynamic Version with Backend
 
-KKCAT WallPaper 平台利用 Cloudflare Workers 提供了一種簡單、快速且免費的部署方式，讓您可以輕松構建一個高質量的壁紙管理與展示平台。無論是個人開發者還是小型團隊，都可以通過這種方式快速上線自己的壁紙平台，並享受 Cloudflare 提供的高性能和全球覆蓋。
+1. **Setup Environment**: Configure your environment with database credentials and authentication tokens.
+2. **Deploy Backend**: Deploy the backend using your preferred service, such as Vercel or AWS Lambda.
+3. **Manage Content**: Use the admin interface to manage wallpapers dynamically.
 
-如果您正在尋找一個無需服務器、易於維護且免費使用的壁紙平台解決方案，KKCAT WallPaper 是您的理想選擇。立即開始部署，體驗前所未有的便捷與高效！
+> **Note**: The dynamic version's source code is not publicly available to ensure security and privacy.
+
+## 📄 API Documentation
+
+For the dynamic version, an API is provided to retrieve wallpaper data in JSON format.
+
+### Example Response:
+```json
+{
+  "id": "101",
+  "url": "https://example.com/image1.jpg",
+  "description": "Beautiful sunset over the mountains",
+  "timestamp": "2024-08-16T12:34:56Z"
+}
+```
+
+## Future Features (TODO)
+
+- [ ] Expand multi-language support
+- [x] Develop a secure admin login system
+- [x] Implement dynamic wallpaper management
+- [ ] Add user accounts for personalized wallpaper collections
+- [ ] Integrate with popular cloud storage solutions
+
+## Contributing
+
+Contributions are welcome! For major changes, please open an issue to discuss your ideas before submitting a pull request.
+
+## 👤 Author
+
+**KKCAT**
+
+- [![Telegram](https://img.shields.io/badge/-Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/kkkkkcat)
+- [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat&logo=twitter)](https://x.com/kcat88888)
+
+---
+
+Elevate your website with KKCAT WallPaper, where simplicity meets power, and your creativity is the only limit. 🚀
